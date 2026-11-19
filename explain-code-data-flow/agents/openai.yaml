@@ -1,6 +1,6 @@
 interface:
   display_name: "代码逻辑与数据关系讲解"
-  short_description: "结合实际数据教懂代码语法，再串起方法、判断、变量以及数据库表字段的读写逻辑"
-  default_prompt: "请用 $explain-code-data-flow 解释这段代码和逻辑：先说整段做什么，结合实际数据逐步讲清语法与取值，再串起方法调用、判断和具体数据库表字段的读写。"
+  short_description: "先讲项目目的和业务名词，再用普通写法、小数据手跑与结构标注讲懂前后端代码"
+  default_prompt: "请用 $explain-code-data-flow 带我理解这段项目代码。我有 C# 基础：先说真实业务目的并解释页面和业务名词，再给笨写法、标数据来源和变量、代小数据手跑、拆符号并认模板，最后接回调用、数据读写与界面结果。"
 policy:
   allow_implicit_invocation: true
