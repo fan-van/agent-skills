@@ -1,0 +1,5 @@
+interface:
+  display_name: "出错时先讲明白"
+  short_description: "报错时立即用中文解释原因、证据和实际影响，再说明处理办法与验证结果"
+policy:
+  allow_implicit_invocation: true
